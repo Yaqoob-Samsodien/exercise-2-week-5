@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    background: #f5f5f5;
+}
+
+#profileCard {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+#profileCard img {
+    border-radius: 50%;
+}
+
+#profileCard:hover {
+    transform: scale(1.03);
+}
+
+
+.controls {
+    width: 260px;
+    padding: 15px;
+    background: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    border: none;
+    background: #91A772;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #3E6F51;
+}
+
+.toggle-btn {
+    background: #28a745;
+}
+
+.toggle-btn:hover {
+    background: #3E6F51;
+}
+
+.active-status {
+    background-color: lightgreen;
+    border: 2px solid #3B6255;
+}
